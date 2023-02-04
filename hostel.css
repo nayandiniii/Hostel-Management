@@ -1,0 +1,162 @@
+@font-face {
+    font-family: cinzel;
+    src: url(cinzel.otf);
+}
+@font-face {
+    font-family: moons;
+    src: url(moons.otf);
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+color: darkblue;
+font-size: 25px;
+}
+h6{font-size: 16px;
+text-align: center;
+text-decoration: underline gray;
+color: blue;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+body{
+    background-color: white;
+    text-align: center;
+}
+.a4{
+    background-color: maroon;
+    height: 50%;
+    width: 40%;
+    color: white;
+    text-decoration: none;
+    display: inline-block ;
+}
+.a5{
+    color: maroon;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    display: inline-block;
+    padding: 4px;
+}
+a.a1:link{
+    text-decoration: underline;
+    color: darkorange;
+}
+a.a1:hover{
+    color: gray;
+}
+a.a1:visited{
+    color: purple;
+}
+a.a1:active{
+    color: darkorange;
+}
+.icon{
+    float: left;
+    padding: 5PX 10px;
+    color: white;
+}
+.contact{
+    font-size: 20px;
+    color: maroon;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+.a6{
+    border: 2px solid white;
+    padding: 6px;
+}
+
+a.a2:link,a.a2:visited{
+    background-color: maroon;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.a2:hover, a.a2:active{
+    background-color: white;
+    border: 4px solid maroon;
+    color: black;
+}
+
+a.a3:link,a.a3:visited{
+    background-color: maroon;
+    color: white;
+    padding: 15px 35px;
+    margin: 30px 12px;
+    width: 38px;
+    height: auto;
+    text-align: left;
+    text-decoration: none;
+    display: list-item;
+}
+a.a3:hover,a.a3:active{
+    background-color: white;
+    border: 4px solid maroon;
+    color: black;
+}
+
+.details{
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    display: inline-block;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    overflow: auto;
+}
+.extra{
+    background-color: maroon;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: white;
+    height: auto;
+    width: auto;
+    margin: 20px;
+    display: inline-block ;
+    text-align: inherit;
+}
+.overme{
+    display: none;
+}
+.icon:hover + .overme{
+    display: block;
+    text-align: inherit;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    
+}
+.a6{
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(228, 225, 225);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+}
+label{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    margin: 4px 0;
+    background-color: rgb(241, 241, 134);
+    color: black;
+}
