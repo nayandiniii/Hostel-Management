@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <? php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $first = names_input($_POST["first"]);
+            $last = names_input($_POST["last"]);
+            $relation = names_input($_POST["relation"]);
+            $visitors = names_input($_POST["visitors"]);
+            $date&time = names_input($_POST["date&time"]);
+          }
+        ?>
+          <p id="dt"></p>
+          <script>
+           const d = new Date();
+            document.getElementById("dt").innerHTML=d
+          </script>
+        <link rel="stylesheet" href="hostel.css">
+        <title>Visitors | DAVC</title>
+        <link rel="icon" type="image/x-icon" href="dav.png">
+        <div class="icon" ><a href="mailto:davgirlshhostel@gmail.com"><img src="mailicon.png" height="40px"; width="50px";float="left";padding="10px";></a></div>
+        <div class="overme">Hostel Mail</div>
+        <div class="icon"><a href="tel:+911722743980"><img src="callicon.png" height="40px"; width="40px";float="left";padding="10px";></a></div>
+        <div class="overme">+911722743980</div>
+        <div class="icon"><a href="https://puchd.ac.in/" target="_blank"><img src="puicon.png" height="40px"; width="40px"; float="left";padding="10px";></a></div>
+        <div class="overme">Panjab University</div>
+        <div class="contact">Contact Us <a href="tel:+9101722742854" class="a1" float="right"> Library</a> <a href="tel:+919815700522" class="a1"> Dean</a></div>
+    </head>
+    <header>
+        <h1><div><a href="https://www.davchd.ac.in/"></a><img src="1981286.jpg" height="7%"; width="7%"; float="left"></div>VISITORS </h1>
+        <h6>(For Girls) | Established in 1959 | Sector 10, Chandigarh , Affilated to Panjab University</h6>
+        <Script>let user = prompt("What is your name?");
+            document.write("Hello "+user+"!");</Script>
+ </header>
+ <body>
+    <a href="hostel.html#about" class="a2">ABOUT</a>
+    <a href="hs.html"  class="a2">HOSTEL</a>
+    <a href="rooms.html"  class="a2">ROOMS</a>
+    <a href="mess.html" class="a2">MESS</a>
+    <a href="visitors.html" class="a2">VISITORS</a><br></div>
+    <marquee  behavior="scroll"><a href="https://www.davchd.ac.in/" class="a1" target="_blank">For Admission Related Queries , Visit Here.</a> </marquee><br>
+
+    
+    <section class="extra">
+        <p>Visitos are allowed to meet their ward in the visitor's room only. They can also come inside the student's room only while
+            they are shifting. The visitors will need prior permission to enter the premises or they will not be allowed 
+            through the security. <br>
+            When checking in they are required to carry: <br>
+            <ul>
+                <li>ID for identification purposes.</li>
+                <li>Their permision letter.(whose copy whould be with the student also)</li>
+                <li>Only njecessary thihngs and nothing sharp or harmful.</li>
+                <li>Any eatable will be their own responsibility and the hostel shall not be held responsible for any kind og mishappen.</li>
+                <li>The visitng hours are from:<br>
+                           7:00 a.m. to 12:00 p.m.<br>
+                           2:00 p.m. to 8:00 p.m.</li>
+            </ul>
+
+        </p>
+    </section>
+     
+    <form name="visitors" action="<?php echo htmlspecialchars($
+    _SERVER["PHP_SELF"]);?>
+        <fieldset class="a6"><legend><br>
+            Permission Letter</legend><br>
+            <p class="a6">The visitors are required to fill the given form for prior permission:</p>
+        <p> Your Information:
+             First Name: <input type="text" name="first"/>
+             Last Name: <input type="text" name="last"/>
+            </p>
+        <p>Relation with the student: <br>
+            <input type="radio"  name="relation" value="Father">Father
+            <input type="radio"  name="relation" value="Mother">Mother
+            <input type="radio"  name="relation" value="Uncle / Aunt">Uncle / Aunt
+            <input type="radio"  name="relation" value="Friend">Friend </p>
+        <p> Visitors Count: <br>
+        <input type="number" name="visitors">
+        </p>
+         <p> Date: <input type="date" name="date"></p>
+         <p><input type="radio" >I hereby declare that I will follow all the rules and regulations carefully.</p>
+        <input type="submit" name="submit" value="SUBMIT">
+        
+  </fieldset></form>
+    
+        <a href="gh20.jpeg" target="_blank"><img src="gh20.jpeg" height="400px"; width="500px";></a>
+    <a href="gh19.jpeg" target="_blank"><img src="gh19.jpeg"  height="400px"; width="500px";></a>
+     </body>
+    <footer>
+        Stay Connected For More Updates
+        <form name="email" action="names.php">
+            <p>E - Mail Address<br>
+            <input type="email" name="email"></p>
+       </form>
+    © 1958- 2022 - DAV College, Sector-10, Chandigarh,<br>
+    Developed by Nandini
+    </footer>
+</html>
